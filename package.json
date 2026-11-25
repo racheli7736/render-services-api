@@ -1,0 +1,20 @@
+{
+  "name": "render-services-api",
+  "version": "1.0.0",
+  "description": "Express API that lists the services in my Render account",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --use-system-ca --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
